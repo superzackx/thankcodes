@@ -1,5 +1,4 @@
-
-Thank.Codes
+# Thank.Codes
 
 The online gratitude journal is my submission for the MongoDB Atlas Hackathon. I created this project to spread a little joy in the world as the world went into lockdown. Sometimes we need to remember what we have, and we need to be thankful for that. Thank.codes is a place for people to express themselves and thier gratitude. 
 
