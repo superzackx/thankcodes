@@ -1,2 +1,2 @@
-# thankcodes
-The official repository for thank.codes!
+# Thank.Codes
+The online gratitude journal.
