@@ -5,7 +5,7 @@ const mongoose      = require("mongoose")
 const Gratitude     = require('./models/gratitude')
 const path          = require('path')
 //MONGODB SETUP
-mongoose.connect(process.env.url, {useUnifiedTopology: true, useNewUrlParser: true})
+mongoose.connect('MONGO_URL', {useUnifiedTopology: true, useNewUrlParser: true})
 
 //BODYPARSER AND EJS SETUP
 app.set('view engine' , 'ejs')
@@ -20,8 +20,8 @@ const config = {
     auth0Logout: true,
     secret: 'a long, randomly-generated string stored in env',
     baseURL: 'https://thank.codes/',
-    clientID: 'qRpqX1qrzhpx4405jcKDi3rvNZdi8NOj',
-    issuerBaseURL: 'https://dev-oetp0p0h.us.auth0.com'
+    clientID: 'AUTH0_ID',
+    issuerBaseURL: 'YOUR_AUTH0_ID-URL'
 };
 
 app.use(auth(config));
