@@ -10,5 +10,5 @@ I used NodeJS for the backend with Express as a framework. I stored all the post
 
 I aim to gain a larger audience for Thank.Codes and increase it's reach. I also plan to keep adding newer features such as:
 
-Share to Instagram(Convert HMTL to image and share)
-Like system(Stored into Mongo)
+1. Share to Instagram(Convert HMTL to image and share)
+2. Like system(Stored into Mongo)
